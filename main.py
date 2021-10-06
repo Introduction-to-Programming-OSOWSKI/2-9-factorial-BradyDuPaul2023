@@ -3,6 +3,6 @@ def factorial(x):
     y = 1
     for i in range(1, x+1):
         y = y * i
-    print(y)
+    return y
 
-factorial(10)
+print(factorial(5))
